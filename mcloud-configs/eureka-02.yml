@@ -34,7 +34,7 @@ spring:
   application:
     name: mc-eureka-server-0202
 server:
-  port: 9537
+  port: 9538
 
 # eureka server 配置
 eureka:
