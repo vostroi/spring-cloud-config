@@ -1,7 +1,4 @@
-spring:
-  profiles:
-    active:
-    - dev
+
 # eureka-01 开发环境配置文件
 ---
 spring:
