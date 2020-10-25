@@ -1,8 +1,8 @@
 # 消费者 consumer 服务的配置文件
-spring:
-  profiles:
-    active:
-    - dev
+#spring:
+#  profiles:
+#    active:
+#    - dev
 # 开发环境配置
 ---
 server:
