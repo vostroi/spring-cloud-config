@@ -2,7 +2,7 @@
 # eureka-01 开发环境配置文件
 ---
 spring:
-  # profiles: dev     #开发环境
+  profiles: dev     #开发环境
   application:
     name: mc-eureka-server-01
 server:
@@ -27,7 +27,7 @@ eureka:
 # eureka-01 测试环境配置文件
 ---
 spring:
-  # profiles: test     #测试环境
+  profiles: test     #测试环境
   application:
     name: mc-eureka-server-0101
 server:
