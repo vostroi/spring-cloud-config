@@ -28,7 +28,7 @@ spring:
         - id: ms_cust                              # 路由的ID-名称随便起
           uri: lb://service-customer               # 要从注册中心获取的服务，且以负载均衡方式转发， 也就是要跳转的目的地址
           predicates:                              # 断言
-            - Path=/cust/mbl/**                    # 路由规则 - 匹配请求
+            - Path=/cust/mbl/**,/spl/**                    # 路由规则 - 匹配请求
 #          filters:
 #            - StripPrefix=1                          # 将匹配所有 "/hello/" 开头的请求(除域名外和端口)，将去掉 1位路径即 "/hello" 拼接在 uri 后面得到目标地址进行转发
             #          - PrefixPath=/usr                        # 将在 Path 前加上"/usr", 拼接在 uri 后面得到目标地址进行转发
